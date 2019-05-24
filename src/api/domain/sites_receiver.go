@@ -2,7 +2,7 @@ package domain
 
 import (
 	"encoding/json"
-	"github.com/mercadolibre/CircuitBreaker - Federico Salas/src/api/utils"
+	"github.com/mercadolibre/CircuitBreaker-FedericoSalas/src/api/utils"
 	"github.com/sony/gobreaker"
 	"io/ioutil"
 	"net/http"

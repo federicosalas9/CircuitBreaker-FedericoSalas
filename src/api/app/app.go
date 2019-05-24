@@ -2,7 +2,7 @@ package app
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/mercadolibre/CircuitBreaker - Federico Salas/src/api/controllers"
+	"github.com/mercadolibre/CircuitBreaker-FedericoSalas/src/api/controllers"
 )
 
 func StartApp() {
@@ -11,4 +11,3 @@ func StartApp() {
 	router.GET("/sites", controllers.GetSites)
 	router.Run(":8080")
 }
-
